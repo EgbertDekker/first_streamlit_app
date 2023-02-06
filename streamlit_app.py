@@ -44,7 +44,7 @@ try:
         #streamlit.dataframe(fruityvice_normalized)
         streamlit.dataframe(back_from_function)
 except URLError as e:
-streamlitt.error()
+    streamlitt.error()
     # #streamlit.write('The user entered', fruit_choice)
 # import requests is naar boven geplaatst
 ## fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
